@@ -57,9 +57,11 @@ title.textContent = "Movies list";
 title.style.textAlign = "center";
 document.body.appendChild(title);
 
-let movies = ["The Gentleman", "John Wick", "Avengers", "Kigsman", "The Hitman"];
+let movies = ["'The Gentleman'", "'John Wick'", "'Avengers'", "'Kigsman'", "'The Hitman'"];
 
 let moviesList = document.createElement("ul");
+moviesList.style.fontSize = "20px";
+moviesList.style.marginLeft = "30px";
 document.body.append(moviesList);
 
 for (let i = 0; i < movies.length; i++) {
